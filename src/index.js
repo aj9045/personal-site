@@ -4,8 +4,8 @@ import ReactDOM from "react-dom";
 class App extends Component {
   render() {
     return (
-      <div class="appContent">
-        <div class="appContent-welcome">
+      <div className="appContent">
+        <div className="appContent-welcome">
           Welcome!
         </div>
       </div>
