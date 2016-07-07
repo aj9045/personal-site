@@ -4,7 +4,7 @@
   "description": "my site",
   "main": "index.js",
   "scripts": {
-    "start": "node ./node_modules/webpack/server/bin/webpack-dev-server.js"
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
   },
   "author": "Avery Jace",
   "license": "ISC",
