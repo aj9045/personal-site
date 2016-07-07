@@ -1,0 +1,31 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+html {
+  display: table;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.appContent {
+  height: 600px;
+  width: 700px;
+  border: black solid 1px;
+  margin: 0 auto;
+}
+
+.appContent-nav {
+  height: 50px;
+}
+
+.appContent-welcome {
+  height: 550px;
+  width: 100%;
+  background-color: #DEAE05;
+}
