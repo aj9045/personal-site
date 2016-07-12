@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
+import Nav from "./components/Nav.js";
 
 class App extends Component {
   render() {
     return (
       <div className="appContent">
-        <div className="appContent-nav">Navigation</div>
+        <Nav />
         <div className="appContent-welcome">
           Welcome!
         </div>
