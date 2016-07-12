@@ -55,6 +55,25 @@ body {
 .nav-contact {
   background-color: #191814;
   color: #E5E5E2;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #191814;
+}
+
+
+.about {
+  background-color: transparent;
+  height: 100%;
+}
+
+.projects {
+  background-color: #E5E5E2;
+  height: 100%;
+}
+
+.contact {
+  background-color: #191814;
+  height: 100%;
 }
 
 
