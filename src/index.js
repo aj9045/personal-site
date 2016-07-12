@@ -23,14 +23,16 @@ class App extends Component {
   render() {
     switch(this.state.selected) {
       case "about":
-        var content = <About/>
+        var content = <About/>;
         break;
       case "projects":
-        var content = <Projects />
+        var content = <Projects />;
         break;
       case "contact":
-        var content = <Contact />
+        var content = <Contact />;
         break;
+      default:
+        var content = <Home />;
     }
     return (
       <div className="appContent">
