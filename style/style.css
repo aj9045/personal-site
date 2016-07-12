@@ -9,23 +9,56 @@ html {
 }
 
 body {
+
     display: table-cell;
     vertical-align: middle;
 }
 
 .appContent {
+  background: url("../images/imagedraw.jpg");
+  background-size: cover;
   height: 600px;
   width: 700px;
   border: black solid 1px;
   margin: 0 auto;
 }
 
-.appContent-nav {
+
+.nav {
   height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
+
+.nav:hover {
+  cursor: pointer;
+}
+
+.nav-about, .nav-projects, .nav-contact {
+  height: 100%;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-about {
+  background-color: transparent;
+}
+
+.nav-projects {
+  background-color: #DDDCDA;
+}
+
+.nav-contact {
+  background-color: #191814;
+  color: #DDDCDA;
+}
+
 
 .appContent-welcome {
   height: 550px;
   width: 100%;
-  background-color: #DEAE05;
 }
