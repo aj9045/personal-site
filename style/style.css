@@ -36,7 +36,7 @@ body {
   cursor: pointer;
 }
 
-.nav-about, .nav-projects, .nav-contact {
+.nav-home, .nav-about, .nav-projects, .nav-contact {
   height: 100%;
   display: flex;
   flex: 1;
@@ -44,8 +44,12 @@ body {
   align-items: center;
 }
 
-.nav-about {
+.nav-home {
   background-color: transparent;
+}
+
+.nav-about {
+  background-color: #B5AEA8;
 }
 
 .nav-projects {
@@ -60,11 +64,16 @@ body {
   border-right-color: #191814;
 }
 
-
-.about {
+.home {
   background-color: transparent;
   height: 100%;
 }
+
+.about {
+  background-color: #B5AEA8;
+  height: 100%;
+}
+
 
 .projects {
   background-color: #E5E5E2;
