@@ -85,6 +85,36 @@ body {
   height: 100%;
 }
 
+.contact-list {
+  margin: 0 auto;
+  padding: 10px;
+  list-style-type: none;
+  width: 50%;
+  border: 1px solid #E5E5E2;
+}
+
+.contact-list-item {
+  padding: 10px;
+  color: #E5E5E2;
+}
+
+.contact-link {
+  color: #E5E5E2;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-link:hover {
+  cursor: pointer;
+}
+
+.icon {
+  height: 30px;
+  margin-right: 20px;
+}
+
 
 .appContent-welcome {
   height: 550px;
