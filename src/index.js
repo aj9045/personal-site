@@ -20,9 +20,21 @@ class App extends Component {
   }
 
   render() {
+    switch(this.state.selected) {
+      case "about":
+        var content = <About/>
+        break;
+      case "projects":
+        var content = <Projects />
+        break;
+      case "contact":
+        var content = <Contact />
+        break;
+    }
     return (
       <div className="appContent">
         <Nav changeTab={this.changeTab.bind(this)} />
+        {content}
         <div className="appContent-welcome">
           Welcome!
         </div>
