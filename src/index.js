@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import Nav from "./components/Nav.js";
+import Home from "./components/Home.js";
 import About from "./components/About.js";
 import Projects from "./components/Projects.js";
 import Contact from "./components/Contact.js";
