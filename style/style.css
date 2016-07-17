@@ -81,17 +81,23 @@ body {
 .about-greeting {
   float: left;
   margin-left: 75px;
-  margin-top: 60px;
+  margin-top: 70px;
 }
 
 .about-me {
   clear: both;
-  padding: 20px 75px 75px 75px;
+  padding: 20px 75px 20px 75px;
   color: #191814;
   margin: 0 auto;
   line-height: 30px;
+  float: left;
 }
 
+.about-photo {
+  margin-left: 10px;
+  height: 220px;
+  float: right;
+}
 
 .projects {
   background-color: #E5E5E2;
@@ -197,7 +203,7 @@ body {
   color: #191814;
   background-color: transparent;
   margin-right: 75px;
-  margin-top: 60px;
+  margin-top: 75px;
   float: right;
   text-decoration: underline;
 }
