@@ -11,7 +11,16 @@ class App extends Component {
     super(props);
     this.state = {
       selected: "home",
+      showModal: false,
     };
+  }
+
+  openModal() {
+    this.setState({showModal: true});
+  }
+
+  closeModal() {
+    this.setState({showModal: false});
   }
 
   changeTab(e) {
@@ -23,7 +32,7 @@ class App extends Component {
   render() {
     switch(this.state.selected) {
       case "about":
-        var content = <About/>;
+        var content = <About openModal={this.openModal.bind(this)} closeModal={this.closeModal.bind(this)} modalOpen={this.state.showModal} />;
         break;
       case "projects":
         var content = <Projects />;
