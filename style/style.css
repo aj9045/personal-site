@@ -70,6 +70,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #E5E5E2;
 }
 
 .about {
@@ -100,6 +101,7 @@ body {
   font-size: 5em;
   width: 50%;
   margin-top: 150px;
+  text-shadow: 1px 2px 8px #191814;
 }
 
 .home-subgreeting {
@@ -107,16 +109,19 @@ body {
   font-size: 1.5em;
   width: 50%;
   margin-top: 40px;
+  text-shadow: 1px 2px 8px #191814;
 }
 
 .home-tag {
-  font-size: 1em;
+  font-size: 1.5em;
+  text-align: center;
   width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 40px;
+  text-shadow: 1px 2px 8px #191814;
 }
 
 .contact-list {
@@ -153,4 +158,28 @@ body {
 .appContent-welcome {
   height: 550px;
   width: 100%;
+}
+
+.modal .modal-dialog {
+  width: 60%;
+}
+.resume {
+    margin: 0 auto;
+  height: 500px;
+  width: 100%;
+}
+.resume-object {
+  margin: 0 auto;
+  height: 500px;
+  width: 100%;
+}
+
+.closeModal {
+  /*color: #191814;*/
+  float: right;
+}
+
+.showResume {
+  color: #191814;
+  background-color: transparent;
 }
