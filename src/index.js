@@ -38,9 +38,6 @@ class App extends Component {
       <div className="appContent">
         <Nav changeTab={this.changeTab.bind(this)} />
         {content}
-        <div className="appContent-welcome">
-          Welcome!
-        </div>
       </div>
     );
   }
