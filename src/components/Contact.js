@@ -5,7 +5,9 @@ export default class Contact extends Component {
   render() {
     return (
       <div className="contact">
-        contact info here
+        <p className="contact-info">
+          Please feel free to contact me if you have any questions, comments, or anything else!  I'm most likely check or respond to an email.
+        </p>
         <ul className="contact-list">
           <li className="contact-list-item">
             <a href="mailto:stuhrenberg.aj@gmail.com" className="contact-link"><img src={"../../images/email.png"} alt="email icon" className="contact-email icon" />stuhrenberg.aj@gmail.com
