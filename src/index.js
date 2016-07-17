@@ -15,15 +15,15 @@ class App extends Component {
     };
   }
 
-  openModal() {
+  _openModal() {
     this.setState({showModal: true});
   }
 
-  closeModal() {
+  _closeModal() {
     this.setState({showModal: false});
   }
 
-  changeTab(e) {
+  _changeTab(e) {
     var selected = e.target.getAttribute("value");
 
     this.setState({selected: selected});
@@ -32,7 +32,7 @@ class App extends Component {
   render() {
     switch(this.state.selected) {
       case "about":
-        var content = <About openModal={this.openModal.bind(this)} closeModal={this.closeModal.bind(this)} modalOpen={this.state.showModal} />;
+        var content = <About openModal={this._openModal.bind(this)} closeModal={this._closeModal.bind(this)} modalOpen={this.state.showModal} />;
         break;
       case "projects":
         var content = <Projects />;
@@ -45,7 +45,7 @@ class App extends Component {
     }
     return (
       <div className="appContent">
-        <Nav changeTab={this.changeTab.bind(this)} />
+        <Nav changeTab={this._changeTab.bind(this)} />
         {content}
       </div>
     );
