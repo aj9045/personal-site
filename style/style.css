@@ -196,4 +196,8 @@ body {
 .showResume {
   color: #191814;
   background-color: transparent;
+  margin-right: 75px;
+  margin-top: 60px;
+  float: right;
+  text-decoration: underline;
 }
