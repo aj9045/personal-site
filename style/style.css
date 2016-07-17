@@ -66,23 +66,57 @@ body {
 
 .home {
   background-color: transparent;
-  height: 100%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about {
   background-color: #B5AEA8;
-  height: 100%;
+  height: 550px;
+}
+
+.about-me {
+  padding: 75px;
+  color: #191814;
+  margin: 0 auto;
+  line-height: 30px;
 }
 
 
 .projects {
   background-color: #E5E5E2;
-  height: 100%;
+  height: 550px;
 }
 
 .contact {
   background-color: #191814;
-  height: 100%;
+  height: 550px;
+}
+
+.home-greeting {
+  text-align: center;
+  font-size: 5em;
+  width: 50%;
+  margin-top: 150px;
+}
+
+.home-subgreeting {
+  text-align: center;
+  font-size: 1.5em;
+  width: 50%;
+  margin-top: 40px;
+}
+
+.home-tag {
+  font-size: 1em;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
 }
 
 .contact-list {
