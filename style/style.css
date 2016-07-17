@@ -131,6 +131,13 @@ body {
   text-shadow: 1px 2px 8px #191814;
 }
 
+.contact-info {
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 70%;
+  color: #E5E5E2;
+}
+
 .contact-list {
   margin: 0 auto;
   padding: 10px;
