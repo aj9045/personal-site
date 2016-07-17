@@ -78,8 +78,15 @@ body {
   height: 550px;
 }
 
+.about-greeting {
+  float: left;
+  margin-left: 75px;
+  margin-top: 60px;
+}
+
 .about-me {
-  padding: 75px;
+  clear: both;
+  padding: 20px 75px 75px 75px;
   color: #191814;
   margin: 0 auto;
   line-height: 30px;
