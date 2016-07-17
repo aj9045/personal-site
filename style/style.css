@@ -168,7 +168,6 @@ body {
   margin-right: 20px;
 }
 
-
 .appContent-welcome {
   height: 550px;
   width: 100%;
@@ -177,6 +176,7 @@ body {
 .modal .modal-dialog {
   width: 60%;
 }
+
 .resume {
     margin: 0 auto;
   height: 500px;
