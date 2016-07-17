@@ -6,7 +6,7 @@ export default class Contact extends Component {
     return (
       <div className="contact">
         <p className="contact-info">
-          Please feel free to contact me if you have any questions, comments, or anything else!  I'm most likely check or respond to an email.
+          Please feel free to contact me if you have any questions, comments, or anything else!  I'm most likely to check or respond to an email.
         </p>
         <ul className="contact-list">
           <li className="contact-list-item">
