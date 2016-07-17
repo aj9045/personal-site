@@ -13,7 +13,7 @@ export default class About extends Component {
             </Modal.Header>
             <Modal.Body>
               <div className="resume">
-                <object data="../../resume.pdf" type="application/pdf" className="resume-object"></object>
+                <object data="../../resources/resume.pdf" type="application/pdf" className="resume-object"></object>
               </div>
             </Modal.Body>
           </Modal>
