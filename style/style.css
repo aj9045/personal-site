@@ -84,6 +84,15 @@ body {
   margin-top: 70px;
 }
 
+.showResumeButton {
+  color: #191814;
+  background-color: transparent;
+  margin-right: 75px;
+  margin-top: 75px;
+  float: right;
+  text-decoration: underline;
+}
+
 .about-me {
   clear: both;
   padding: 20px 75px 20px 75px;
@@ -188,6 +197,7 @@ body {
   height: 500px;
   width: 100%;
 }
+
 .resume-object {
   margin: 0 auto;
   height: 500px;
@@ -196,13 +206,4 @@ body {
 
 .closeModal {
   float: right;
-}
-
-.showResumeButton {
-  color: #191814;
-  background-color: transparent;
-  margin-right: 75px;
-  margin-top: 75px;
-  float: right;
-  text-decoration: underline;
 }
