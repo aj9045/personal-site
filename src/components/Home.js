@@ -6,7 +6,7 @@ export default class Home extends Component {
     return (
       <div className="home">
         <div className="home-greeting">Hi, I'm AJ</div>
-        <div className="home-subgreeting">Thanks for dropping by!</div>
+
         <div className="home-tag">
           <span className="home-tag-dev tag-title">Developer</span>
           <span className="home-tag-separator">|</span>
