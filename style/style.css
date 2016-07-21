@@ -94,6 +94,36 @@ body {
   color: #EDEDEA;
 }
 
+.home-greeting {
+  text-align: center;
+  font-size: 5em;
+  width: 50%;
+  margin-top: 150px;
+  text-shadow: 1px 2px 8px #191814;
+}
+
+.home-subgreeting {
+  text-align: center;
+  font-size: 1.5em;
+  width: 50%;
+  margin-top: 40px;
+  text-shadow: 1px 2px 8px #191814;
+}
+
+.home-tag {
+  font-size: 1.5em;
+  text-align: center;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+  text-shadow: 1px 2px 8px #191814;
+}
+
+/* ABOUT */
+
 .about {
   background-color: #B5AEA8;
   height: 550px;
@@ -129,42 +159,11 @@ body {
   float: right;
 }
 
-.projects {
-  background-color: #E5E5E2;
-  height: 550px;
-}
+/* CONTACT */
 
 .contact {
   background-color: #191814;
   height: 550px;
-}
-
-.home-greeting {
-  text-align: center;
-  font-size: 5em;
-  width: 50%;
-  margin-top: 150px;
-  text-shadow: 1px 2px 8px #191814;
-}
-
-.home-subgreeting {
-  text-align: center;
-  font-size: 1.5em;
-  width: 50%;
-  margin-top: 40px;
-  text-shadow: 1px 2px 8px #191814;
-}
-
-.home-tag {
-  font-size: 1.5em;
-  text-align: center;
-  width: 50%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 40px;
-  text-shadow: 1px 2px 8px #191814;
 }
 
 .contact-info {
@@ -197,6 +196,7 @@ body {
 
 .contact-link:hover {
   cursor: pointer;
+  color: #B5AEA8;
 }
 
 .icon {
@@ -227,4 +227,75 @@ body {
 
 .closeModal {
   float: right;
+}
+
+
+/* PROJECTS */
+
+.projects {
+  background-color: #E5E5E2;
+  height: 550px;
+  padding-bottom: 60px;
+  overflow: scroll;
+}
+
+.projectBox {
+  max-width: 600px;
+  margin: 0 auto;
+  border: #191814 1px solid;
+  overflow: hidden;
+  margin-top: 60px;
+  padding: 15px;
+
+}
+
+.projectBox-build, .projectBox-info {
+  margin: 8px;
+}
+
+.projectBox-info {
+  border-bottom: #191814 1px solid;
+  padding-bottom: 15px;
+}
+
+.projectBox-link, .projectBox-source {
+  color: #191814;
+  text-decoration: underline;
+}
+
+.projectBox-source {
+  font-size: 1em;
+}
+
+.projectBox-link:hover, .projectBox-source:hover {
+  color: #B5AEA8;
+}
+
+.projectBox-image {
+    float: none;
+    width: 500px;
+    height: 300px;
+    margin: 10px auto;
+    display: block;
+}
+
+.projectBox-build {
+  border-top: #191814 1px solid;
+  clear: both;
+}
+
+.projectBox-desc {
+  font-size: 1.25em;
+  padding-bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.projectBox-builtHeader {
+  font-size: 1.25em;
+  margin-bottom: 8px;
+}
+
+.projectBox-builtList {
+  font-size: 1em;
 }
