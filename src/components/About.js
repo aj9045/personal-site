@@ -7,7 +7,7 @@ export default class About extends Component {
       var modal = (
         <div className=
         "static-modal modal">
-          <Modal show={this.props.modalOpen} >
+          <Modal show={this.props.modalOpen}>
             <Modal.Header>
               <button type="button" onClick={this.props.closeModal} className="closeModal close">x</button>
             </Modal.Header>
