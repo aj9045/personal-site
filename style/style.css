@@ -9,21 +9,40 @@ html {
   display: table;
 }
 
+h1, h3, h5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h1, h3, h5, p {
+  cursor: default;
+}
+
 body {
   display: table-cell;
   vertical-align: middle;
 }
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* APP */
 
 .appContent {
   background: url("../images/imagedraw.jpg");
   background-size: cover;
   height: 600px;
   width: 700px;
-  /*border: black solid 1px;*/
   margin: 0 auto;
 }
 
 
+/* NAV */
 .nav {
   height: 50px;
   display: flex;
