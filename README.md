@@ -1,1 +1,1 @@
-Used React to create my personal site.  The content has been moved from my github.io site.  You can find it at [averyjace.com](https://www.averyjace.com).
+Used React to create my personal site.  The content has been moved from my github.io site.  You can find it at [averyjace.com](http://www.averyjace.com).
