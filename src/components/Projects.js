@@ -37,7 +37,7 @@ export default class Projects extends Component {
 
         <div className="projectBox">
           <div className="projectBox-info">
-            <h3><a href="https://simple-name-gen.herokuapp.com/" className="projectBox-link">Simple Name Generator</a></h3>
+            <h3><a href="http://simple-name-generator.s3-website-us-east-1.amazonaws.com/" className="projectBox-link">Simple Name Generator</a></h3>
             <a href="https://github.com/aj9045/Simple-Name-Generator" className="projectBox-source">Source</a>
           </div>
           <img src="../../images/namegen.png" className="projectBox-image" />
